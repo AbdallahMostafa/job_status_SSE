@@ -18,3 +18,7 @@ function send(res) {
 }
 app.listen(port);
 console.log(`Listening on ${port}`);
+
+// Client Code
+// let sse = new EventSource("http://localhost:8888/stream");
+// sse.onmessage = console.log
