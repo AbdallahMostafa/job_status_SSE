@@ -1,1 +1,1 @@
-# job_status_SSE
+# A NodeJS App to play with the Server Sent Events the main idea is to once you send a request to "/stream" the server responds with a special header "text/event-stream" so this tells the client that this is an unedning resposne and keeps receving chunks of data (mini responses)
